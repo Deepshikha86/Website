@@ -1,0 +1,51 @@
+ <html>
+<head>
+<style>
+.container
+{
+background:white;
+background-positon:center;
+height:200vh;
+overflow:hidden;
+top:0px;
+}
+.sliderbox
+{
+position:relative;
+width:3200px;
+height:800px;
+overflow:hidden;
+top:0px;
+animation-name
+:sliding;
+animaton-duration:10s;
+}
+.sliderbox img
+{
+float:left;
+height:1000px;
+width:600px;
+}
+@keyframes sliding
+{
+0%{left:0px;}
+20%{left:0px;}
+25%{left:-1000px;}
+40%{left:-1000px;}
+45%{left:-2000px;}
+70%{left:-2000px;}
+75%{left:-3000px;}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="sliderbox">
+<img src="img.jpg">
+<img src="imges.jpg">
+<img src="images.jpg">
+<img src="imgs.jpg">
+</div>
+</div>
+</body>
+</html>
